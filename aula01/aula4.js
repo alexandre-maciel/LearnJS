@@ -1,4 +1,5 @@
 // switch
+// verifica as condições e executa
 
 let idade = "laele"
 
