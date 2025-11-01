@@ -1,4 +1,4 @@
-const { captureOwnerStack } = require("react");
+// array de objetos
 
 let tarefas = [
     {
@@ -17,3 +17,11 @@ let tarefas = [
         completo: false,
     }
 ]
+
+// acessar um vetor de objetos
+console.log(tarefas[1].texto)
+
+console.log(JSON.stringify(tarefas))
+
+// formatar um objeto como JSON
+JSON.stringify(tarefas)
